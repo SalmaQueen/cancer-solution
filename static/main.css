@@ -8,6 +8,7 @@
   *zoom: 1;
 }
 
+
 .clear:after {
   clear: both;
 }
@@ -1039,6 +1040,9 @@ img {
 @media only screen and (max-width: 500px) {
   card:not(:first-child) {
     margin-left: 0;
+  }
+  img{
+    width: 200px;
   }
 }
 
