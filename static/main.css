@@ -1045,4 +1045,18 @@ img {
     width: 200px;
   }
 }
+@media only screen and (max-width:800px){
+  .main{
+    width: 80%;
+    padding: 0;
+  }
+  .right{
+    width:100%;
+  }
+}
 
+@media only screen and (max-width:500px){
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
